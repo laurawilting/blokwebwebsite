@@ -81,7 +81,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   De kleuren van de website beleef ik heel anders in de kleurenblind functies. 
 
-  <img src="readme-images/ssbeperking.jpg" width="375px" alt="ss van de milka pagina met kleurenblind beperking. ">
+  <img src="readme-" width="375px" alt="ss van de milka pagina met kleurenblind beperking. ">
+  <img src="readme-images/ssbeperking.jpg" alt="ss van de milka pagina met kleurenblind beperking.">
+
 
 </details>
 
@@ -93,7 +95,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschermmilka.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -113,26 +115,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik heb nu bijna al mijn html geschreven en alle plaatjes verwerkt. Dit ging goed en met html schrijen heb ik niet zo veel problemen. CSS en JS daarin tegen vind ik een stuk lastiger. Hier ben ik dan ook nog een beetje bang voor. 
+ Ik vind het last om te bepalen waar ik moet beginnen. 
+
+ Ik probeer zometeen een begin te maken met het stylen van mijn eerste pagina. Hoop dat dit een beetje oke gaat, anders kan ik morgen hulp vragen in de les.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Laura          |  Youri             | Pepijn       | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Ik wil graag   |  Youri wil graag                                     
+  | weten waar ik  |  weten hoe zijn  
+  | het beste mee  |  header het beste 
+  | kan beginnen   |  kan laten werken.
+  |in mijn CSS. 
+ 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - We kunnen elkaar lastig op weg helpen via deze manier en willen elkaar daarom graag morgen in de les helpen. 
+  - Hulp vragen aan de docent en de student assisenten.
 
 </details>
 
