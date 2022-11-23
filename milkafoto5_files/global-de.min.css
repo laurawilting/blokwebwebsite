@@ -1,0 +1,9 @@
+/**
+ * MILKA DE/AT/NL
+ * env: production
+ * version: 1.13.2
+ * date: 9/2/2022 11:43:40
+ */
+
+.btn__container{width:auto;height:auto;max-width:none;display:inline-block;text-align:center;letter-spacing:2px;padding:10px 30px 8px 30px}@media only screen and (min-width:481px){.btn__container{padding:10px 40px 8px 40px}}.btn__container span{font-size:16px;letter-spacing:2px}
+/*# sourceMappingURL=global-de.min.css.map */
