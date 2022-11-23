@@ -56,30 +56,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Ik ben er achter gekomen dat wanneer je bepaalde beperkingen hebt, het gebruiken van een website een stuk moeilijker wordt. 
+  
+  Zelf vond ik motoriek (de shocks) de vervelenste beperking. De groote buttons kan ik nog wel bedienen maar naar maten deze kleiner worden, wordt dit steeds moeilijker. Ik had met de screenreader toepassen op mijn gekozen website ook nog wel wat moeite. Hij deed het niet helemaal lekker en bleef veel vast lopen. Ook las hij niet alle tekstjes op. 
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader deed het niet helemaal goed op mijn gekozen website. Hij bleef soms vast lopen en las niet alle stukjes tekst op. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik ben er nog niet achter hoe ik dit precies kan oplozen. 
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De muis en toetsenbord reageeren goed op mijn site. De pijltjes van boven naar beneden doen het ook goed. Ik kan alleen niet van links en naar rechts gewegen op de website of van links naar rechts via de buttons.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De website maakt gebruik van redelijk groote buttons, hierdoor kan je nog redelijke goed navigeren door de website. Zodra de buttons kleiner worden, wordt het een stuk lastiger gemaakt. dan lukt het niet meer. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De kleuren van de website beleef ik heel anders in de kleurenblind functies. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="readme-images/ssbeperking.jpg" width="375px" alt="ss van de milka pagina met kleurenblind beperking. ">
 
 </details>
 
