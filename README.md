@@ -126,10 +126,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Laura          |  Youri             | Pepijn       | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Ik wil graag   |  Youri wil graag                                     
-  | weten waar ik  |  weten hoe zijn  
-  | het beste mee  |  header het beste 
-  | kan beginnen   |  kan laten werken.
+  | Ik wil graag   |  Youri wil graag   | Pepijn wil                                 
+  | weten waar ik  |  weten hoe zijn    | Weten of zijn 
+  | het beste mee  |  header het beste  | html semantisch 
+  | kan beginnen   |  kan laten werken. | genoeg is.
   |in mijn CSS. 
  
 
