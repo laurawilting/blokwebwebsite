@@ -140,6 +140,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - We kunnen elkaar lastig op weg helpen via deze manier en willen elkaar daarom graag morgen in de les helpen. 
   - Hulp vragen aan de docent en de student assisenten.
 
+  Feedback na meeting met docent: 
+
+  
+
 </details>
 
 
@@ -152,17 +156,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben aardig op weg met de eerste pagina van mijn website. Dit gaat redelijk goed! mijn CSS heb ik helemaal netjes gemaakt. 
+  Ik loop helaas vast bij mijn footer: 
+
+  <img src="readme-images/Footer.jpg" width="375px" alt="">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Laura          | Pepijn         | Youri        
+  | Ik wil graag   |                |
+  |aan de slag met |                |
+  |mijn footer.    |                |
+  |                | ...            | ...          
 
 
   ### Verslag van meeting
