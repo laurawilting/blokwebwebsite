@@ -166,8 +166,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
 Laura: Ik wil graag aan de slag met mijn footer. Ik loop bij dit onderdeel vast. 
-Pepijn:
-Youri
+Pepijn: Wat je extra wit toeveogen qua toegankelijkheid. 
+Youri: Heeft geen vragen! 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
