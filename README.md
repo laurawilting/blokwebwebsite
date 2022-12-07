@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw!!!!!
 
   #### Je focus:
-  Ik denk bling bling.. Of hoe noemde jullie dat nou?? glitter glitter? Srarkel sparkel? 
+  Ik denk bling bling.. Of hoe noemde jullie dat nou?? glitter glitter? Sparkel sparkel? 
  
 </details>
 
