@@ -191,14 +191,23 @@ Youri: Heeft geen vragen!
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  Ik ben er achter gekomen dat de website die ik na maak niet voorzien is van een darkmodus. 
+  Dit wil ik dus wel coderen in mijn eigen website. 
+
+  De kleurtjes op mijn eigen website doen het niet. Op de officele website werkt dit wel. Dit ga ik dus nog aanpassen. 
+
+  
+
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader loopt goed op mijn website en hij leest alles goed voor. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De muis en het toetsenbord werken goed op mijn gecodeerde website. De pijltjes en tab toets gaan door de navigatie bar en footer heen. Verder heb ik geen knopjes op mijn website. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -212,11 +221,24 @@ Youri: Heeft geen vragen!
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  Met de brillen is mijn site redelijk goed zichbaar. Ik maak gebruik van een duidelijk kleuren contrast en de afbeelding zijn erg groot. 
+
+  Als ik mij website op de kleurenblind opties zet wordt de kleur van de chocolade heel vies. de bruine chocolade reep kleurt bijvoorbeeld groen. 
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+Ik wil graag een optie voor alleen de darkmode maken. Hierdoor komt de kleur van de chocola veel mooier over. 
+
+screenshot van mijn site met kleurenblind beperking: 
+<br>
+
+<img src="readme-images/kleurenblind.png" width="375px" alt="">
+
+screenshot van mijn op zwart-wit filter beperking, hierdoor komen mijn foto's veel mooier over : 
+<br>
+<img src="readme-images/zwartwitfuntie" width="375px" alt="">
+
 </details>
-
-
 
 
 
