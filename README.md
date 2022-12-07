@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw!!!!!
 
   #### Je focus:
-  Ik denk Surface plane, wat is het makkelijkst? 
+  Ik denk bling bling.. Of hoe noemde jullie dat nou?? glitter glitter? Sprakel sprakel? 
  
 </details>
 
@@ -215,8 +215,11 @@ Youri: Heeft geen vragen!
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Mijn website is goed te bedienen met de shocken. Dit komt omdat ik gebruik maak van vrij groote knoppen en buttons. 
+  De navbar was iets moeilijker te gebruiken.
 
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik heb het lettertype in de navnbar een stuk grooter gemaakt. Hierdoor is de navbar ook goed in gebruik. 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -236,7 +239,7 @@ screenshot van mijn site met kleurenblind beperking:
 
 screenshot van mijn op zwart-wit filter beperking, hierdoor komen mijn foto's veel mooier over : 
 <br>
-<img src="readme-images/zwartwitfuntie" width="375px" alt="">
+<img src="readme-images/zwartwitfuntie.png" width="375px" alt="">
 
 </details>
 
@@ -248,16 +251,25 @@ screenshot van mijn op zwart-wit filter beperking, hierdoor komen mijn foto's ve
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het is mij gelukt mijn tweede pagina af te krijgen. Altans.. ik heb alle content die ik erin wilde, erin staan! Ik heb de afbeeldingen en buttons naast elkaar gezet en heb een nav bar gemaakt. Alles moet nu nog een plekje krijgen..
+
+  waar ik nog aan moet werken: 
+
+  Ik zou graag willen dat mijn nav bar pas zichtbaar wordt als ik naar beneden scrol. Nu zie je hem al meteen als ik de pagina open.
+  Ook heb ik moeite met mijn footer. Ik weet niet zo goed hoe ik het voor elkaar krijg dat mijn footer er het zelfde uitziet als op de offiecele website.
+
+  screenshot van hoe mijn footer er nu uitziet..: 
+
+  <img src="readme-images/foutinfooter" width="375px" alt="">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Laura          | Pepijn             | Youri        | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hulp bij nav   | en dit             | en ik dit    | en dan ik dat    |
+  | bar en footer  | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
