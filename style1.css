@@ -1,0 +1,134 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  button, summary {
+      cursor: pointer;
+  }
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+      /* startje */
+      --color-text:#111;
+      --color-background:#eee;
+  }
+  
+  
+  /****************/
+  /* ALGEMENE STYLING */
+  /****************/
+  
+  /* jouw code */
+  
+header nav ul {
+	display: flex;
+	position: absolute;
+	right: 0; 
+	color: white ;
+	
+}
+
+header nav li{
+	width: 11em;
+	list-style: none;
+    color: white;
+    list-style-type:none;
+}
+
+
+/********/
+/* MAIN */
+/********/
+
+
+/* section 1 */
+
+section:nth-of-type(1) img{
+	
+    width: 100%; 
+    display: block;
+
+}
+
+/* section 2 */
+
+
+
+
+
+/* section 3 */
+
+section:nth-of-type(3) h2{
+    font-family: "Primary Regular";
+    text-align: center;
+
+
+}
+
+section:nth-of-type(3) p{
+    text-align: center;
+
+}
+
+
+/* section 4 */
+
+section:nth-of-type(4) ul{
+    display: flex;
+    
+}
+
+section:nth-of-type(4) li {
+    display:flex;
+    flex-direction:column;
+    gap:.25em;
+}
+
+
+
+ul:nth-of-type(1) li {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+  }
+
+ul:nth-of-type(1) img {
+    max-width: 100%;
+  }
+
+
+
+ul:nth-of-type(2) li {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+  }
+
+ul:nth-of-type(2) img {
+      max-width: 100%;
+  }
+
+  ul:nth-of-type(1) button {
+    background-color: #93d1f4;
+    font-size: 13px;
+    border-radius: 12px;
+    padding: 1em;
+}
+
+ul:nth-of-type(2) button {
+    background-color: #93d1f4;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 1em;
+
+}
+
+
