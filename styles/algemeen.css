@@ -15,7 +15,6 @@
 /* ALGEMENE STYLING */
 /****************/
 
-/* jouw code */
 
 @font-face {
 	font-family: "MirageMedium";
@@ -49,41 +48,108 @@ header {
 	position: fixed;
 	left:0;
 	right: 0;
-	background-color: #7d69ac;
 	padding: .5em;
 	font-size: large;
 	z-index:100;
-
+	background-image: linear-gradient(#7d69ac, #7d69ac88);
 }
 
-header nav {
-
-}
 
 header nav ul {
 	display: flex;
 	justify-content: end;
-
-	
 	margin:0;
 	padding:0;
 	list-style: none;
-}
+	background-image: linear-gradient(#7d69ac, #7d69ac88);
 
-header nav li{
+	margin:0;
+	padding:5em 1em 1em 1em;
+	list-style:none;
 	
-	
-	
+	display:flex;
+	flex-direction:column;
+	gap:1px;
 }
 
 header nav li a{
 	display:block;
-
 	padding:1em;
 	text-decoration: none;
-
 	color: white;
 }
+
+
+nav{
+	position: fixed;
+	inset: 0;
+	transform:translate(-100%);
+}
+
+nav.open{
+	transform:translate(0%);
+}
+ 
+
+header {
+	min-height:4em;
+	display:flex;
+	align-items:center;
+	justify-content:start;
+	padding:0 1em;
+}
+
+header button {
+	position:relative;
+	z-index:100;
+	border:none;
+	background:none;
+	
+}
+
+header button img {
+	max-width: 1.7em;
+}
+
+
+header nav {
+	position:fixed;
+	inset:0;
+	transform:translateX(-100%);
+	transition:.3s;
+}
+
+header nav.open {
+	transform:translateX(0%);
+}
+
+header nav ul li a {
+	display:block;
+	padding:1em;
+	
+	
+}
+
+@media (min-width:40em) {
+	header {
+		justify-content:end;
+	}
+	
+	header button {
+		display:none;
+	}
+	
+	header nav {
+		position:static;
+		transform:none;
+	}
+	
+	header nav ul {
+		padding:0;
+		flex-direction:row;
+	}
+}
+
 
 
 
@@ -128,11 +194,28 @@ footer img:first-of-type{
 
 }
 
-.logofooter{
-	display: flex;
-	justify-content: left;
-}
-
 footer nav li a {
 	text-decoration: none;
+
+}
+
+
+
+/* Als ik mijn footer kleiner maak moeten alle listitems verdwijnen */
+
+@media (min-width:40em) {
+	footer {
+		justify-content:center
+	}
+	
+	
+	footer nav {
+		position:static;
+		transform:none;
+	}
+	
+	footer nav ul {
+		padding:0;
+		flex-direction:row;
+	}
 }
