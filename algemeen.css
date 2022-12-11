@@ -1,0 +1,246 @@
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+	box-sizing:border-box;  
+  }
+  
+  button, summary {
+	  cursor: pointer;
+  }
+  
+ 
+/****************/
+/* ALGEMENE STYLING */
+/****************/
+
+
+@font-face {
+	font-family: "MirageMedium";
+    src: url("../fonts/MirageMedium.otf");
+    font-style: normal;
+}
+
+
+:root{
+	margin: 0;
+	font-family: "MirageMedium";
+
+}
+
+  :root {
+	  /* startje */
+	  --color-text:#111;
+	  --color-background:rgb(230, 222, 222);
+  }
+  
+  body {
+	  margin:0;
+  }
+  
+  
+  /********/
+  /* Header */
+  /********/
+  
+header {
+	position: fixed;
+	left:0;
+	right: 0;
+	padding: .5em;
+	font-size: large;
+	z-index:100;
+	background-image: linear-gradient(#7d69ac, #7d69ac88);
+}
+
+
+header nav ul {
+	display: flex;
+	justify-content: end;
+	margin:0;
+	padding:0;
+	list-style: none;
+	background-image: linear-gradient(#7d69ac, #7d69ac88);
+
+	margin:0;
+	padding:5em 1em 1em 1em;
+	list-style:none;
+	
+	display:flex;
+	flex-direction:column;
+	gap:1px;
+}
+
+header nav li a{
+	display:block;
+	padding:1em;
+	text-decoration: none;
+	color: white;
+}
+
+
+nav{
+	position: fixed;
+	inset: 0;
+	transform:translate(-100%);
+}
+
+nav.open{
+	transform:translate(0%);
+}
+ 
+
+header {
+	min-height:4em;
+	display:flex;
+	align-items:center;
+	justify-content:start;
+	padding:0 1em;
+}
+
+header button {
+	position:relative;
+	z-index:100;
+	border:none;
+	background:none;
+	
+}
+
+header button img {
+	max-width: 1.7em;
+}
+
+
+header nav {
+	position:fixed;
+	inset:0;
+	transform:translateX(-100%);
+	transition:.3s;
+}
+
+header nav.open {
+	transform:translateX(0%);
+}
+
+header nav ul li a {
+	display:block;
+	padding:1em;
+	
+	
+}
+
+@media (min-width:40em) {
+	header {
+		justify-content:end;
+	}
+	
+	header button {
+		display:none;
+	}
+	
+	header nav {
+		position:static;
+		transform:none;
+	}
+	
+	header nav ul {
+		padding:0;
+		flex-direction:row;
+	}
+}
+
+
+
+
+
+/**********/
+/* FOOTER */
+/**********/
+
+
+footer{
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	text-decoration: none; 
+}
+
+footer section ul {
+	position: fixed;
+	left: -9999em;
+	list-style-type: none;
+	justify-content: center;
+	text-decoration: none; 
+}
+
+ @media (min-width: 18em) {
+	footer {
+		display: flex;
+		gap: 1em;
+	}
+
+	footer section ul {
+		position: static;
+
+	}
+} 
+footer img {
+
+		width: 100%;
+		position: absolute;
+		bottom: -40em;
+		aspect-ratio: 1/1;
+		object-fit: cover;
+		object-position: right;
+		z-index: -1;
+}
+
+
+footer nav li a {
+	text-decoration: none;
+
+}
+
+
+/* Als ik mijn footer kleiner maak moeten alle listitems verdwijnen */
+
+@media (max-width:40em) {
+	footer {
+		justify-content:center;
+	}
+	
+	
+	footer nav {
+		position:static;
+		transform:none;
+	}
+	
+	footer nav ul {
+		padding:0;
+		flex-direction:row;
+	}
+	footer section ul {
+		display: none; /* Zorgen dat de subkopjes niet meer zichtbaar zijn */
+	}
+}
+
+
+/* Code voor footer mobiel */
+footer {
+    display: flex; /* Hierdoor staan ze nu naast elkaar */
+  flex-direction: column; /* Voor het onderelkaar zetten */
+}
+footer section {
+  display: flex;
+  justify-content: center; /* Zorgt ervoor dat ze in het midden komen te staan */
+    padding: 0.5em; /* Ruimte tussen de sections */
+}
+footer section:nth-of-type(2) {
+  border-top: 1px solid #3b2774;;
+  border-bottom: 1px solid #3b2774;; 
+}
+footer section a {
+  text-transform: uppercase; /* Zodat het allemaal hoofdletters worden */
+  text-decoration: none;
+}

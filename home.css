@@ -1,0 +1,155 @@
+/********/
+/* MAIN */
+/********/
+
+
+
+
+.screenreader{
+	clip: rect(0 0 0 0); 
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position:absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* section 1 */
+
+section:nth-of-type(1) img{
+	
+	 width: 100%; 
+	 display: block;
+
+}
+
+
+
+/* section 2 */
+
+  main section:nth-of-type(2) h2{
+	justify-content: center;
+	color: rebeccapurple;
+	width: 100%;
+	text-align: center;
+	font-size:xx-large;
+}
+
+
+  main section:nth-of-type(2) ul {
+	display: flex;
+	flex-direction:column;
+	gap: 2em; 
+
+	list-style: none;
+	margin:0;
+	padding:2em;
+}
+
+  main section:nth-of-type(2) ul p{
+	color: rebeccapurple;
+}
+
+
+  section:nth-of-type(2) ul img{
+	width:100%;
+	height: auto;
+}
+
+
+
+
+@media (min-width:40em) {
+	section:nth-of-type(2) ul li {
+		display:flex;
+		justify-content:space-around;
+		align-items: center;
+	}
+
+	section:nth-of-type(2) ul li:nth-of-type(2) {
+		flex-direction:row-reverse;
+	}
+	
+	section:nth-of-type(2) ul p {
+		width:50%;
+	}
+
+	section:nth-of-type(2) ul img {
+		width:40%;
+	}
+	footer section:nth-of-type(2) ul li {
+		display: block;
+		justify-content: left;
+		align-items: left;
+	} 
+}
+
+
+
+
+main section:nth-of-type(3) {
+	background-color: rgb(118, 104, 154);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+section:nth-of-type(3) h2{
+	justify-content: center;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size:x-large;
+	display: inline-block;
+	margin-top: 2em;
+}
+
+section:nth-of-type(3) p{
+	max-width: 50vw;
+	color: white;
+}
+
+
+
+section:nth-of-type(3) img{
+	max-width: 30em;
+}
+
+
+
+
+/* section 4 */
+section:nth-of-type(4) p{
+	color: rebeccapurple;
+}
+
+
+
+
+/* section 5 */
+section:nth-of-type(4) h2{
+	justify-content: center;
+	color: rebeccapurple;
+	width: 100%;
+	text-align: center;
+	font-size:xx-large;
+}
+
+section:nth-of-type(4) img{
+	width: 30em;
+	justify-content: center;
+	text-align: center;
+	place-content: center;
+	padding: 1.5em;
+	padding-bottom: 2em;
+	display: flex;
+	align-items: center;
+
+}
+
+section:nth-of-type(4){
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
