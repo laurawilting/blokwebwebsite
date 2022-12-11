@@ -154,8 +154,6 @@ header nav ul li a {
 
 
 
-
-
 /**********/
 /* FOOTER */
 /**********/
@@ -165,7 +163,7 @@ footer{
 	position: relative;
 	width: 100%;
 	justify-content: center;
-	text-decoration: none;
+	text-decoration: none; 
 }
 
 footer section ul {
@@ -187,12 +185,17 @@ footer section ul {
 
 	}
 } 
-footer img:first-of-type{
-	width: 90em;
-	position: absolute;
-	bottom:-30em;
+footer img {
 
+		width: 100%;
+		position: absolute;
+		bottom: -40em;
+		aspect-ratio: 1/1;
+		object-fit: cover;
+		object-position: right;
+		z-index: -1;
 }
+
 
 footer nav li a {
 	text-decoration: none;
@@ -200,12 +203,11 @@ footer nav li a {
 }
 
 
-
 /* Als ik mijn footer kleiner maak moeten alle listitems verdwijnen */
 
 @media (min-width:40em) {
 	footer {
-		justify-content:center
+		justify-content:center;
 	}
 	
 	
@@ -218,4 +220,27 @@ footer nav li a {
 		padding:0;
 		flex-direction:row;
 	}
+}
+
+
+/* Code voor footer mobiel */
+footer {
+    display: flex; /* Hierdoor staan ze nu naast elkaar */
+  flex-direction: column; /* Voor het onderelkaar zetten */
+}
+footer section ul {
+    display: none; /* Zorgen dat de subkopjes niet meer zichtbaar zijn */
+}
+footer section {
+  display: flex;
+  justify-content: center; /* Zorgt ervoor dat ze in het midden komen te staan */
+    padding: 0.5em; /* Ruimte tussen de sections */
+}
+footer section:nth-of-type(2) {
+  border-top: 1px solid #3b2774;;
+  border-bottom: 1px solid #3b2774;; 
+}
+footer section a {
+  text-transform: uppercase; /* Zodat het allemaal hoofdletters worden */
+  text-decoration: none;
 }
