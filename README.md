@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw!!!!!
 
   #### Je focus:
-  Ik denk bling bling.. Of hoe noemde jullie dat nou?? glitter glitter? Sparkel sparkel? 
+  Responsive
  
 </details>
 
@@ -40,12 +40,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.milka.nl/ 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepagina Milka
-  <img src="readme-images/homepaginamilka.jpg" width="375px" alt="homepagina van milka">
+  Homepagina Milka:
+  <img src="readme-images/homepaginamilka1.png" width="375px" alt="homepagina van milka">
+  <img src="readme-images/homepaginamilka2.png" width="375px" alt="homepagina van milka">
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Newspagina Milka
-  <img src="readme-images/nieuwspaginamilka.png" width="375px" alt="pagina met producten van milka">
+  <img src="readme-images/nieuwspagina1.png" width="375px" alt="pagina met producten van milka">
+  <img src="readme-images/nieuwspagina2.png" width="375px" alt="pagina met producten van milka">
+
  
 </details>
 
@@ -76,13 +80,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Motoriek (shocks, elastiekjes)
   De website maakt gebruik van redelijk groote buttons, hierdoor kan je nog redelijke goed navigeren door de website. Zodra de buttons kleiner worden, wordt het een stuk lastiger gemaakt. dan lukt het niet meer. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik ga de buttons en kopjes in bijvoorbeeld de footer wat grooter maken. Hierdoor maak ik mijn website toegangelijker. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   De kleuren van de website beleef ik heel anders in de kleurenblind functies. 
 
-  <img src="readme-" width="375px" alt="ss van de milka pagina met kleurenblind beperking. ">
+  <img src="readme-images/kleurenblind.png" width="375px" alt="ss van de milka pagina met kleurenblind beperking. ">
   <img src="readme-images/ssbeperking.jpg" alt="ss van de milka pagina met kleurenblind beperking.">
 
 
@@ -99,10 +103,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/Breakdownschermmilka.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownscherm2.png" width="375px" alt="breakdown van de nav">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdownfooter.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -143,6 +147,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Feedback na meeting met docent: 
 
+  - Jullie gaan de goede kant op. Probeer eerst te foccusen op alle content en daarna de vormgeving. Werk stap voor stap.
+
   
 
 </details>
@@ -160,23 +166,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik ben aardig op weg met de eerste pagina van mijn website. Dit gaat redelijk goed! mijn CSS heb ik helemaal netjes gemaakt. 
   Ik loop helaas vast bij mijn footer: 
 
-  <img src="readme-images/Footer.jpg" width="375px" alt="">
+  <img src="readme-images/Footer.jpg" width="375px" alt="voorbeeld van footer die nog niet goed werkt">
 
+  Gefixt!!!: 
+
+  <img src="readme-images/footerfix.png" width="375px" alt="voorbeeld van footer hoe die er nu uitziet.">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
+  | Laura          |  Youri             | Pepijn     
+  | ---            | ---                | ---         
+  | Ik wil graag   |  heeft geen vragen | Pepijn wil                                 
+  | aan de slag met|  weten hoe zijn    | Weten wat hij  
+  | mijn footer.   |  header het beste  | moet toevoegen 
+  |                |  kan laten werken. | om zijn website toegangelijk te maken 
+  
+
 Laura: Ik wil graag aan de slag met mijn footer. Ik loop bij dit onderdeel vast. 
-Pepijn: Wat je extra wit toeveogen qua toegankelijkheid. 
+Pepijn: Wat je extra wit toevoegen qua toegankelijkheid. 
 Youri: Heeft geen vragen! 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - De meeting ging goed en we hebben elkaat zelfs een beetje kunnen helpen. 
+  - Youri had geen vragen dus met hem heb ik niet echt gesproken. 
+  - 
+
 
 </details>
 
@@ -231,7 +248,7 @@ Youri: Heeft geen vragen!
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
-Ik wil graag een optie voor alleen de darkmode maken. Hierdoor komt de kleur van de chocola veel mooier over. 
+  Ik wil graag een optie voor alleen de darkmode maken. Hierdoor komt de kleur van de chocola veel mooier over. 
 
 screenshot van mijn site met kleurenblind beperking: 
 <br>
@@ -267,20 +284,19 @@ screenshot van mijn op zwart-wit filter beperking, hierdoor komen mijn foto's ve
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Laura          | Pepijn             | Youri        | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | Hulp bij nav   | en dit             | en ik dit    | en dan ik dat    |
-  | bar en footer  | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Laura          | Pepijn             | Youri        
+  | ---            | ---                | ---          
+  | Hulp bij nav   | was niet bij       | hulp bij     
+  | bar en footer  | meeting            | bling bling  
+  |                | ...                | toevoegen aan website.    
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Meeting ging goed. Ik was alleen met Youri.
+  - Youi en ik konden elkaar niet verder helpen, omdat we niet wisten hoe we elkaars problemen konden oplossen. 
+ 
 
 </details>
 

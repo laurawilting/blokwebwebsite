@@ -159,88 +159,106 @@ header nav ul li a {
 /**********/
 
 
+/* Code voor footer mobiel */
+
 footer{
-	position: relative;
-	width: 100%;
-	justify-content: center;
-	text-decoration: none; 
+
+	display: flex;
+	 /* Hierdoor staan ze nu naast elkaar */
+	/* met column staan ze onder elkaar */
+  	flex-direction: column; 
+	gap:1em;
+}
+
+footer section {
+	padding: 0 1em; 
+}
+
+footer section:nth-of-type(2) {
+
+}
+
+footer section > a {
+	display: block;
+  text-transform: uppercase; /* Zodat het allemaal hoofdletters worden */
+  text-decoration: none;
+	text-align:center;
+
+	/* witruimte onder de a - tot het streepje */
+	padding-bottom:1em;
+}
+
+/* de a's direct in een section - maar niet in de laatste section - hebben een streepje aan de onderkant */
+footer section:not(:last-of-type) > a {
+	border-bottom: 1px solid #3b2774;
 }
 
 footer section ul {
-	position: fixed;
-	left: -9999em;
-	list-style-type: none;
-	justify-content: center;
-	text-decoration: none; 
+	display: none; /* Zorgen dat de subkopjes niet meer zichtbaar zijn */
 }
 
- @media (min-width: 18em) {
-	footer {
-		display: flex;
-		gap: 1em;
-	}
 
-	footer section ul {
-		position: static;
-
-	}
-} 
+/* plaatje onderaan */
 footer img {
-
+		display:block;
 		width: 100%;
-		position: absolute;
-		bottom: -40em;
-		aspect-ratio: 1/1;
-		object-fit: cover;
-		object-position: right;
-		z-index: -1;
+		/* position: absolute; */
+		/* bottom: -40em; */
+		/* aspect-ratio: 1/1; */
+		/* object-fit: cover; */
+		/* object-position: right; */
+		/* z-index: -1; */
 }
 
 
-footer nav li a {
-	text-decoration: none;
 
-}
-
-
-/* Als ik mijn footer kleiner maak moeten alle listitems verdwijnen */
 
 @media (min-width:40em) {
 	footer {
+		/* section naast elkaar */
+		flex-direction: row;
+		/* en in het midden */
 		justify-content:center;
+		/* de afbeedling is 100% breed */
+		/* en mag met wrap op zijn eigen regel */
+		/* en blijft dus zo breed als het scherm */
+		flex-wrap:wrap;
+	}
+
+	footer section > a {
+		text-align: left;
+	}
+
+	/* nu alle a's een streepje */
+	footer section > a {
+		border-bottom: 1px solid #3b2774;
 	}
 	
-	
-	footer nav {
-		position:static;
-		transform:none;
-	}
-	
-	footer nav ul {
+	footer section ul {
+		/* de ul is zichtbaar */
+		display:block;
 		padding:0;
-		flex-direction:row;
+		list-style: none;
+		/* flex-direction:row; */
 	}
 }
 
 
-/* Code voor footer mobiel */
-footer {
-    display: flex; /* Hierdoor staan ze nu naast elkaar */
-  flex-direction: column; /* Voor het onderelkaar zetten */
-}
-footer section ul {
-    display: none; /* Zorgen dat de subkopjes niet meer zichtbaar zijn */
-}
-footer section {
-  display: flex;
-  justify-content: center; /* Zorgt ervoor dat ze in het midden komen te staan */
-    padding: 0.5em; /* Ruimte tussen de sections */
-}
-footer section:nth-of-type(2) {
-  border-top: 1px solid #3b2774;;
-  border-bottom: 1px solid #3b2774;; 
-}
-footer section a {
-  text-transform: uppercase; /* Zodat het allemaal hoofdletters worden */
-  text-decoration: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

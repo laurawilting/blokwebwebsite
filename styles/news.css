@@ -52,7 +52,7 @@ main section:nth-of-type(2) p{
 
 
 /* section 3  */
-/* Ik heb nu de gehehele code in mn @media gezet, stukje naar onder staat nog mn oude code.  */
+
 main section:nth-of-type(3) ul { 
     display: flex;
     list-style: none;
@@ -69,7 +69,7 @@ main section:nth-of-type(3) img {
 }
 
 @media (max-width: 40em) { 
-    main section:nth-of-type(3) ul { 
+    main section:nth-of-type(3) ul button { 
         display: flex;
         flex-direction: column; /* Zorgt dat het onder elkaar komt te staan */
         gap: 1.5em; /* Zorgt voor de ruimte tussen de list items */
