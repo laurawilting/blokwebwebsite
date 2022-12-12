@@ -40,13 +40,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.milka.nl/ 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepagina Milka:
+ 
   <img src="readme-images/homepaginamilka1.png" width="375px" alt="homepagina van milka">
   <img src="readme-images/homepaginamilka2.png" width="375px" alt="homepagina van milka">
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Newspagina Milka
+  
   <img src="readme-images/nieuwspagina1.png" width="375px" alt="pagina met producten van milka">
   <img src="readme-images/nieuwspagina2.png" width="375px" alt="pagina met producten van milka">
 
