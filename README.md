@@ -63,12 +63,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Ik ben er achter gekomen dat wanneer je bepaalde beperkingen hebt, het gebruiken van een website een stuk moeilijker wordt. 
   
-  Zelf vond ik motoriek (de shocks) de vervelenste beperking. De groote buttons kan ik nog wel bedienen maar naar maten deze kleiner worden, wordt dit steeds moeilijker. Ik had met de screenreader toepassen op mijn gekozen website ook nog wel wat moeite. Hij deed het niet helemaal lekker en bleef veel vast lopen. Ook las hij niet alle tekstjes op. 
+  Zelf vond ik motoriek (de shocks) de vervelenste beperking. De groote buttons kan ik nog wel bedienen maar naar maten deze kleiner worden, wordt dit steeds moeilijker. Ik had met de screenreader toepassen op mijn gekozen website ook nog wel wat moeite. Ik vind het lastig om deze te gebruiken en moet hier nog flink mee oefenen! 
+
+  Samen met Donna aan het testen: 
+
+  <img src="readme-images/bril.jpg" width="375px" alt=" Donnan aan het testen. ">
+
 
   #### Screenreader
   De screenreader deed het niet helemaal goed op mijn gekozen website. Hij bleef soms vast lopen en las niet alle stukjes tekst op. 
+  Ik heb de twee pagina’s bekeken in Safari op Chrome en ben het volgende problemen tegengekomen:
+  Het viel mij op dat veel <img> tags geen alt beschrijving hebben. Hierdoor weet de gebruiker niet wat er in de afbeelding wordt weergegeven.
 
-  Ik ben er nog niet achter hoe ik dit precies kan oplozen. 
+  Hoe kan ik dit oplossen? 
+
+  Door alle afbeeldingen een duidelijke alt beschrijving te geven, zijn de visuele elementen een stuk beter te begrijpen via een screenreader.
+
 
 
   #### Muis en Toetsenbord 
@@ -78,9 +88,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  De website maakt gebruik van redelijk groote buttons, hierdoor kan je nog redelijke goed navigeren door de website. Zodra de buttons kleiner worden, wordt het een stuk lastiger gemaakt. dan lukt het niet meer. 
+  De website maakt gebruik van redelijk groote buttons, hierdoor kan je nog redelijke goed navigeren door de website. 
+  Echter gebruikt Milka hele kleine linkjes in de footer en navigatiebar. Door de shocken kon ik niet op deze linkjes clicken. 
+  
+  Hoe kan ik dit oplossen? 
 
-  Ik ga de buttons en kopjes in bijvoorbeeld de footer wat grooter maken. Hierdoor maak ik mijn website toegangelijker. 
+  Ik ga de linkjes en kopjes in de footer en navigatiebar wat grooter maken. Hierdoor maak ik mijn website toegangelijker voor mensen met deze beperking. 
+
+  <img src="readme-images/kleinefooter.png" alt="screenshot van de kleine tekst in de footer op dit moment.">
+
+
+  
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
@@ -314,15 +332,23 @@ screenshot van mijn op zwart-wit filter beperking, hierdoor komen mijn foto's ve
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb enorm veel geleerd op het gebied van CSS. Ik snap nu wel echt wat ik doe (over het algmeen hah). 
+  Ook ben ik best trots op mijn hamburger menu en mijn footer. Hier heb ik wel hulp bij gekregen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb voornamelijk geleerd hoe ik mijn website zo goed mogelijk responsive kan maken en dit is aardig gelukt: 
+  
+
+  <img src="readme-images/responsive1" width="375px" alt="voorbeeld van website op groot formaat">
+  <img src="readme-images/responsive2" width="375px" alt="voorbeeld van website op klein formaat">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik had heel graag nog een dark-modus willen instaleren op mijn website omdat de afbeeldingen van de chocolade er in verschillende kleurenblind functies er een beetje vies uit kon zien.
+  Ik heb hier echt nog mijn best voor gedaan, maar helaas is dit niet gelukt. Ik kwam er niet uit en merkte dat het te veek tijd in beslag nam.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Ook ben ik lang bezig geweest en vond ik het heel lastig om mijn website responsive te maken. Dit is uiteindelijk wel gelukt. 
+
+  <img src="readme-images/darkmoduss.png" width="375px" alt="voorbeeld van darkmodus op mijn website">
 </details>
 
 
