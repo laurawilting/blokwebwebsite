@@ -334,7 +334,13 @@ screenshot van mijn op zwart-wit filter beperking, hierdoor komen mijn foto's ve
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/foto1.png" width="375px" alt="pagina 1">
+  <img src="readme-images/foto2.png" width="375px" alt="pagina 1">
+  <img src="readme-images/foto3.png" width="375px" alt="pagina 1">
+
+  <img src="readme-images/foto4.png" width="375px" alt="pagina 2">
+  <img src="readme-images/foto5.png" width="375px" alt="pagina 2">
+  <img src="readme-images/foto6.png" width="375px" alt="pagina 2">
 
 
   ### Dit ging goed/Heb ik geleerd: 
