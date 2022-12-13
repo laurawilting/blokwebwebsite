@@ -227,32 +227,14 @@ main section:nth-of-type(3) img {
 
 
 
-    /* section 5 */
+    
 
-    main section:nth-of-type(5) img{
-        display: flex;
-        justify-content: center;
-        width: 45em;
-    }
-
-    main section:nth-of-type(5) button{
-        background-color: #93d1f4;
-
-        border-radius: 22px;
-        padding: 1em; 
-        list-style: none;
-        padding-left: 2em;
-        padding-right: 2em;
-        font-family: "MirageMedium";
-        color: #3b2774;
-        font-size: larger;
-        border:none;
-    }
+    
 
 
 
     /* section 6 */
-
+/* 
     main section:nth-of-type(6){
         position: relative;
     }
@@ -280,5 +262,51 @@ main section:nth-of-type(3) img {
         text-align: center;
 
     
-    }
+    } */
+}
+
+/* section 5 */
+main section:nth-of-type(5) button{
+    background-color: #93d1f4;
+
+    border-radius: 22px;
+    padding: 1em; 
+    list-style: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: "MirageMedium";
+    color: #3b2774;
+    font-size: larger;
+    border:none;
+}
+
+
+main section:nth-of-type(5) img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* section 6 */
+main section:nth-of-type(6) {
+    margin: 3em 0;
+}
+
+/* main section:nth-of-type(6) img{
+    height: 100%;
+    width: auto;
+    margin: 1em 0 2em;
+    display: block;
+} */
+
+main section:nth-of-type(6) div {
+    padding: 2em;
+    background-image: url(../images/lilabackground.png);
+    background-size: cover;
+    background-position: center;
+}
+
+main section:nth-of-type(6) div h2 {
+    color: white;
+    text-align: center;
 }
