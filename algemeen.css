@@ -1,16 +1,18 @@
-
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-	box-sizing:border-box;  
-  }
-  
-  button, summary {
-	  cursor: pointer;
-  }
-  
- 
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+button,
+summary {
+	cursor: pointer;
+}
+
+
 /****************/
 /* ALGEMENE STYLING */
 /****************/
@@ -18,93 +20,53 @@
 
 @font-face {
 	font-family: "MirageMedium";
-    src: url("../fonts/MirageMedium.otf");
-    font-style: normal;
+	src: url("../fonts/MirageMedium.otf");
+	font-style: normal;
 }
 
 
-:root{
+:root {
 	margin: 0;
 	font-family: "MirageMedium";
 
 }
 
-  :root {
-	  /* startje */
-	  --color-text:#111;
-	  --color-background:rgb(230, 222, 222);
-  }
-  
-  body {
-	  margin:0;
-  }
-  
-  
-  /********/
-  /* Header */
-  /********/
-  
-header {
-	position: fixed;
-	left:0;
-	right: 0;
-	padding: .5em;
-	font-size: large;
-	z-index:100;
-	background-image: linear-gradient(#7d69ac, #7d69ac88);
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-background: (#F7F4F4);
+}
+
+body {
+	margin: 0;
 }
 
 
-header nav ul {
-	display: flex;
-	justify-content: end;
-	margin:0;
-	padding:0;
-	list-style: none;
-	background-image: linear-gradient(#7d69ac, #7d69ac88);
 
-	margin:0;
-	padding:5em 1em 1em 1em;
-	list-style:none;
-	
-	display:flex;
-	flex-direction:column;
-	gap:1px;
-}
+/**************/
+/* DARK THEME */
+/**************/
 
-header nav li a{
-	display:block;
-	padding:1em;
-	text-decoration: none;
-	color: white;
-}
+/* helaas niet genoeg tijd voor gehad.. */
 
 
-nav{
-	position: fixed;
-	inset: 0;
-	transform:translate(-100%);
-}
 
-nav.open{
-	transform:translate(0%);
-}
- 
+/********/
+/* Header */
+/********/
 
-header {
-	min-height:4em;
-	display:flex;
-	align-items:center;
-	justify-content:start;
-	padding:0 1em;
+header img {
+	max-width: 3.5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header button {
-	position:relative;
-	z-index:100;
-	border:none;
-	background:none;
-	
+	position: relative;
+	z-index: 100;
+	border: none;
+	background: none;
+
 }
 
 header button img {
@@ -112,45 +74,108 @@ header button img {
 }
 
 
+header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	padding: .5em;
+	font-size: large;
+	z-index: 100;
+	background-image: linear-gradient(#7d69ac, #7d69ac88);
+}
+
+
+header nav ul {
+	display: flex;
+	justify-content: end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-image: linear-gradient(#7d69ac, #7d69ac88);
+
+	margin: 0;
+	padding: 5em 1em 1em 1em;
+	list-style: none;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+
+}
+
+header nav li a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	color: white;
+}
+
+
+nav {
+	position: fixed;
+	inset: 0;
+	transform: translate(-100%);
+}
+
+nav.open {
+	transform: translate(0%);
+}
+
+
+header {
+	min-height: 4em;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	padding: 0 1em;
+}
+
+
+
 header nav {
-	position:fixed;
-	inset:0;
-	transform:translateX(-100%);
-	transition:.3s;
+	position: fixed;
+	inset: 0;
+	transform: translateX(-100%);
+	transition: .3s;
 }
 
 header nav.open {
-	transform:translateX(0%);
+	transform: translateX(0%);
 }
 
 header nav ul li a {
-	display:block;
-	padding:1em;
-	
-	
+	display: block;
+	padding: 1em;
+
+
 }
+
+header a {}
 
 @media (min-width:40em) {
 	header {
-		justify-content:end;
+		justify-content: end;
 	}
-	
+
 	header button {
-		display:none;
+		display: none;
 	}
-	
+
 	header nav {
-		position:static;
-		transform:none;
+		position: static;
+		transform: none;
 	}
-	
+
 	header nav ul {
-		padding:0;
-		flex-direction:row;
+		padding: 0;
+		flex-direction: row;
+	}
+
+	header img{
+		margin-left: 1em;
+
 	}
 }
-
-
 
 
 
@@ -159,88 +184,101 @@ header nav ul li a {
 /**********/
 
 
-footer{
-	position: relative;
-	width: 100%;
-	justify-content: center;
-	text-decoration: none; 
+/* Code voor footer mobiel */
+
+footer {
+
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+footer section {
+	padding: 0 1em;
+}
+
+footer section:first-of-type ul li a,
+footer section:nth-of-type(2) ul li a,
+footer section:nth-of-type(3) ul li a
+	{
+	text-decoration: none;
+	color: #7d69ac;
+}
+
+/* footer section:nth-of-type(2) {} */
+
+footer section>a {
+	display: block;
+	text-transform: uppercase;
+	/* Zodat het allemaal hoofdletters worden */
+	text-decoration: none;
+	text-align: center;
+
+	/* witruimte onder de a - tot het streepje */
+	padding-bottom: 1em;
+}
+
+/* de a's direct in een section - maar niet in de laatste section - hebben een streepje aan de onderkant */
+footer section:not(:last-of-type)>a {
+	border-bottom: 1px solid #7d69ac;
 }
 
 footer section ul {
-	position: fixed;
-	left: -9999em;
-	list-style-type: none;
-	justify-content: center;
-	text-decoration: none; 
+	display: none;
+	/* Zorgen dat de subkopjes niet meer zichtbaar zijn */
 }
 
- @media (min-width: 18em) {
-	footer {
-		display: flex;
-		gap: 1em;
-	}
 
-	footer section ul {
-		position: static;
-
-	}
-} 
+/* plaatje onderaan */
 footer img {
-
-		width: 100%;
-		position: absolute;
-		bottom: -40em;
-		aspect-ratio: 1/1;
-		object-fit: cover;
-		object-position: right;
-		z-index: -1;
+	display: block;
+	width: 100%;
 }
 
 
-footer nav li a {
-	text-decoration: none;
-
-}
 
 
-/* Als ik mijn footer kleiner maak moeten alle listitems verdwijnen */
-
-@media (max-width:40em) {
+@media (min-width:40em) {
 	footer {
-		justify-content:center;
+		/* section naast elkaar */
+		flex-direction: row;
+		/* en in het midden */
+		justify-content: center;
+		/* de afbeedling is 100% breed */
+		/* en mag met wrap op zijn eigen regel */
+		/* en blijft dus zo breed als het scherm */
+		flex-wrap: wrap;
 	}
-	
-	
-	footer nav {
-		position:static;
-		transform:none;
+
+	footer section>a {
+		text-align: left;
 	}
-	
-	footer nav ul {
-		padding:0;
-		flex-direction:row;
+
+	/* nu alle a's een streepje */
+	footer section>a {
+		border-bottom: 1px solid #3b2774;
 	}
+
 	footer section ul {
-		display: none; /* Zorgen dat de subkopjes niet meer zichtbaar zijn */
+		/* de ul is zichtbaar */
+		display: block;
+		padding: 0;
+		list-style: none;
+		/* flex-direction:row; */
 	}
 }
 
+footer div li a {
+	
+	margin: 0;
+	padding: 0; 
+	color: #7d69ac;
+	margin: 0.5em;
+	text-decoration: none;
+	font-size: small;
+	
+}
 
-/* Code voor footer mobiel */
-footer {
-    display: flex; /* Hierdoor staan ze nu naast elkaar */
-  flex-direction: column; /* Voor het onderelkaar zetten */
-}
-footer section {
-  display: flex;
-  justify-content: center; /* Zorgt ervoor dat ze in het midden komen te staan */
-    padding: 0.5em; /* Ruimte tussen de sections */
-}
-footer section:nth-of-type(2) {
-  border-top: 1px solid #3b2774;;
-  border-bottom: 1px solid #3b2774;; 
-}
-footer section a {
-  text-transform: uppercase; /* Zodat het allemaal hoofdletters worden */
-  text-decoration: none;
+footer div li {
+	display: inline-block;
 }
