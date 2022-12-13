@@ -40,7 +40,7 @@ summary {
 	--color-text-footer: #7D69AC;
 	--color-buttons: #93d1f4;
 	--color-bttons-hover: #4eb8f5;
-	--color-h2 : #3b2774;
+	--color-h2: #3b2774;
 
 }
 
@@ -80,7 +80,7 @@ header {
 	padding: .5em;
 	font-size: large;
 	z-index: 100;
-	background-image: var(--kleurnavbar); 
+	background-image: var(--kleurnavbar);
 	min-height: 4em;
 	align-items: center;
 	padding: 0 1em;
@@ -101,7 +101,6 @@ header button img {
 
 header nav ul {
 	display: flex;
-	justify-content: end;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -127,7 +126,6 @@ header nav li a {
 
 nav {
 	display: flex;
-	justify-content: flex-end;
 	position: fixed;
 	inset: 0;
 	transform: translate(-100%);
@@ -152,8 +150,21 @@ header nav ul li a {
 	display: block;
 	padding: 1em;
 
-
 }
+
+
+
+@media (max-width: 40em) {
+	header nav {
+		justify-content: flex-start;
+	}
+
+	nav ul {
+		justify-content: flex-start;
+	}
+}
+
+
 
 /* header a {} */
 
