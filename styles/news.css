@@ -1,0 +1,252 @@
+/********/
+/* MAIN */
+/********/
+
+/* section 1 */
+
+main section:nth-of-type(1) {
+    position: relative;
+    
+   
+}
+
+main section:nth-of-type(1) img {
+
+    width: 100%;
+    display: block;
+
+}
+
+main section:nth-of-type(1) div {
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    text-align: center;
+    font-size: 1.5em;
+  
+}
+
+
+/* section 2 */
+
+
+main section:nth-of-type(2) h2 {
+    text-align: center;
+    color: #3b2774;
+    font-size: 2.1em;
+}
+
+main section:nth-of-type(2) p {
+    text-align: center;
+    color: #3b2774;
+    
+}
+
+
+
+/* section 3  */
+
+main section:nth-of-type(3) ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+main section:nth-of-type(3) li {
+    width: calc(50% - 1.5em);
+    /* De breedte van de li wordt uitgerekent met calc 50% - 1.5em zodat er ruimte tussen en om het element komt */
+}
+
+main section:nth-of-type(3) img {
+    width: 100%;
+}
+
+@media (max-width: 40em) {
+    main section:nth-of-type(3) ul {
+        display: flex;
+        flex-direction: column;
+        /* Zorgt dat het onder elkaar komt te staan */
+        gap: 1.5em;
+        /* Zorgt voor de ruimte tussen de list items */
+    }
+
+    main section:nth-of-type(3) li {
+        display: flex;
+        flex-direction: column;
+        gap: .25em;
+        width: 100%;
+    }
+
+    main ul:nth-of-type(1) li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main ul:nth-of-type(1) img {
+        max-width: 100%;
+    }
+
+
+    main ul:nth-of-type(2) li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    main ul:nth-of-type(2) img {
+        max-width: 100%;
+    }
+
+
+    main ul:nth-of-type(2) button {
+        background-color: var(--color-buttons);
+
+        border-radius: 22px;
+        padding: 1em;
+        list-style: none;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-family: "MirageMedium";
+        color: #3b2774;
+        font-size: larger;
+        border: none;
+    }
+
+    main ul:nth-of-type(1) button {
+        background-color: var(--color-buttons);
+
+        border-radius: 22px;
+        padding: 1em;
+        list-style: none;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-family: "MirageMedium";
+        color: #3b2774;
+        font-size: larger;
+        border: none;
+    }
+
+    main section:nth-of-type(3) button:hover {
+        transition: .2s;
+        background-color: var(--color-bttons-hover);
+    }
+}
+
+
+
+main ul:nth-of-type(2) button {
+    background-color: var(--color-buttons);
+
+    border-radius: 22px;
+    padding: .5em;
+    list-style: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: "MirageMedium";
+    color: #3b2774;
+    font-size: larger;
+    border: none;
+   
+}
+
+
+main ul:nth-of-type(1) button {
+    background-color: var(--color-buttons);
+
+    border-radius: 22px;
+    padding: .5em;
+    list-style: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: "MirageMedium";
+    color: #3b2774;
+    font-size: larger;
+    border: none;
+}
+
+main section:nth-of-type(3) button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+main section:nth-of-type(3) button:hover {
+    transition: .2s;
+    background-color: var(--color-bttons-hover);
+}
+
+
+
+/* section 4 */
+
+main section:nth-of-type(4) h2 {
+    display: flex;
+    justify-content: center;
+    color: #3b2774;
+    font-size: 3.5em;
+}
+
+
+
+/* section 5 */
+
+main section:nth-of-type(5) img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30em;
+    padding-bottom: 1em;
+
+}
+
+main section:nth-of-type(5) button {
+    background-color: #93d1f4;
+
+    border-radius: 22px;
+    padding: .5em;
+    list-style: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: "MirageMedium";
+    color: #3b2774;
+    font-size: larger;
+    border: none;
+    max-width: 15em;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30em;
+
+
+}
+
+
+
+
+main section:nth-of-type(6) {
+    margin: 3em 0; /* Zorgt voor ruimte om het paarse deel */
+}
+main section:nth-of-type(6) div {
+    padding: 2em; /* Zorgt voor ruimte in het paarse deel */
+    background-image: url(../images/lilabackground.png); /* Achtergrond afbeelding wordt geplaatst*/
+    background-size: cover; /* Zorgt ervoor dat de afbeelding over de gehele breedte wordt geplaatst  */
+    background-position: center; /* Het midden van de afbeelding word laten zien */
+}
+main section:nth-of-type(6) div h2 {
+    color: white;
+    text-align: center;
+}
