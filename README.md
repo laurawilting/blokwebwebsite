@@ -126,10 +126,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/Breakdownschermmilka.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
+  ### dynamisch deel: navigatie bar en menu: 
   <img src="readme-images/breakdownscherm2.png" width="375px" alt="breakdown van de nav">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### wellicht nog een dynamisch deel: footer: 
   <img src="readme-images/breakdownfooter.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
@@ -145,7 +145,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
  Ik heb nu bijna al mijn html geschreven en alle plaatjes verwerkt. Dit ging goed en met html schrijen heb ik niet zo veel problemen. CSS en JS daarin tegen vind ik een stuk lastiger. Hier ben ik dan ook nog een beetje bang voor. 
- Ik vind het last om te bepalen waar ik moet beginnen. 
+ Ik vind het lastig om te bepalen waar en hoe ik moet beginnen. 
 
  Ik probeer zometeen een begin te maken met het stylen van mijn eerste pagina. Hoop dat dit een beetje oke gaat, anders kan ik morgen hulp vragen in de les.
 
@@ -344,8 +344,8 @@ screenshot van mijn op zwart-wit filter beperking, hierdoor komen mijn foto's ve
   Ik heb voornamelijk geleerd hoe ik mijn website zo goed mogelijk responsive kan maken en dit is aardig gelukt: 
   
 
-  <img src="readme-images/responsive1" width="375px" alt="voorbeeld van website op groot formaat">
-  <img src="readme-images/responsive2" width="375px" alt="voorbeeld van website op klein formaat">
+  <img src="readme-images/responsive1.png" width="375px" alt="voorbeeld van website op groot formaat">
+  <img src="readme-images/responsive2.png" width="375px" alt="voorbeeld van website op klein formaat">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -368,8 +368,24 @@ screenshot van mijn op zwart-wit filter beperking, hierdoor komen mijn foto's ve
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+  2. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+  3. https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow
+  4. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+  5. https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style
+  6. https://developer.mozilla.org/en-US/docs/Web/CSS/border-spacing
+  7. https://fonts.google.com
+  8. https://www.w3schools.com/css/css_background.asp
+  9. https://www.w3schools.com/html/html_images.asp 
+  10. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+  11. https://modernways.be/myap/it/page/programming/css/CSS%20lay-out%20met%20flexbox.html 
+  12. https://www.cursuswp.com/css-variabelen-root-aangepaste-eigenschappen-handleiding/ 
+  13. https://www.w3schools.com/css/css_navbar.asp 
+  14. https://www.w3schools.com/css/css_dropdowns.asp 
+  15. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp 
+
+  en natuurlijk alle Codepen oefeningen en dia slidse op DLO!! Dit heeft mij het meeste geholpen. 
+  
+ 
 
 </details>
