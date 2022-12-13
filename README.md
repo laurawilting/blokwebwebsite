@@ -102,10 +102,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  De kleuren van de website beleef ik heel anders in de kleurenblind functies. 
+  De kleuren van de website beleef ik heel anders in de kleurenblind functies: 
 
   <img src="readme-images/kleurenblind.png" width="375px" alt="ss van de milka pagina met kleurenblind beperking. ">
-  <img src="readme-images/ssbeperking.jpg" alt="ss van de milka pagina met kleurenblind beperking.">
+  <img src="readme-images/ssbeperking.jpg" width="375px" alt="ss van de milka pagina met kleurenblind beperking.">
+
+  Hoe kan ik dit oplossen?
+
+  De kleuren van de chocolade komen helemaal niet lekker en uitnodigend over in de kleurenblind functies. Daarom wil ik graag een darkmodus toepassen op mijn website. Hierdoor komt chocolade nog wel goed uit: 
+
+<img src="readme-images/zwartwitfuntie.png" width="375px" alt="ss van de milka pagina met kleurenblind beperking. ">
 
 
 </details>
