@@ -35,21 +35,19 @@ summary {
 	/* startje */
 	--color-text: #111;
 	--color-background: (#f7f7f7);
-	--hoofdkleur: rebeccapurple; 
-	--kleurnavbar : linear-gradient(#7d69ac, #7d69ac88);
-	--color-text-footer : #7D69AC; 
-	--color-buttons : #93d1f4; 
-	--color-bttons-hover : #4eb8f5;
+	--hoofdkleur: rebeccapurple;
+	--kleurnavbar: linear-gradient(#7d69ac, #7d69ac88);
+	--color-text-footer: #7D69AC;
+	--color-buttons: #93d1f4;
+	--color-bttons-hover: #4eb8f5;
+	--color-h2 : #3b2774;
 
 }
 
 body {
 	margin: 0;
-    background-color: var(--color-background); 
-
-
+	background-color: var(--color-background);
 }
-
 
 
 /**************/
@@ -73,9 +71,20 @@ header img {
 
 /* staat in de mediaquery */
 header {
-    justify-content: space-between;/* Nu komt er ruimte tussen inplaats van alles aan het einde */
+	display: flex;
+	justify-content: space-between;
+	/* Nu komt er ruimte tussen inplaats van alles aan het einde */
+	position: fixed;
+	left: 0;
+	right: 0;
+	padding: .5em;
+	font-size: large;
+	z-index: 100;
+	background-image: var(--kleurnavbar); 
+	min-height: 4em;
+	align-items: center;
+	padding: 0 1em;
 }
-
 
 header button {
 	position: relative;
@@ -90,24 +99,13 @@ header button img {
 }
 
 
-header {
-	position: fixed;
-	left: 0;
-	right: 0;
-	padding: .5em;
-	font-size: large;
-	z-index: 100;
-	background-image: linear-gradient(#7d69ac, #7d69ac88);
-}
-
-
 header nav ul {
 	display: flex;
 	justify-content: end;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	background-image: linear-gradient(#7d69ac, #7d69ac88);
+	background-image: var(--kleurnavbar);
 
 	margin: 0;
 	padding: 5em 1em 1em 1em;
@@ -128,6 +126,8 @@ header nav li a {
 
 
 nav {
+	display: flex;
+	justify-content: flex-end;
 	position: fixed;
 	inset: 0;
 	transform: translate(-100%);
@@ -136,17 +136,6 @@ nav {
 nav.open {
 	transform: translate(0%);
 }
-
-
-header {
-	min-height: 4em;
-	display: flex;
-	align-items: center;
-	justify-content: start;
-	padding: 0 1em;
-}
-
-
 
 header nav {
 	position: fixed;
@@ -169,10 +158,6 @@ header nav ul li a {
 /* header a {} */
 
 @media (min-width:40em) {
-	header {
-		justify-content: end;
-	}
-
 	header button {
 		display: none;
 	}
@@ -207,7 +192,7 @@ footer {
 }
 
 footer {
-
+	position: absolute;
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
@@ -219,8 +204,7 @@ footer section {
 
 footer section:first-of-type ul li a,
 footer section:nth-of-type(2) ul li a,
-footer section:nth-of-type(3) ul li a
-	{
+footer section:nth-of-type(3) ul li a {
 	text-decoration: none;
 	color: #7d69ac;
 }
@@ -286,17 +270,19 @@ footer img {
 		list-style: none;
 		/* flex-direction:row; */
 	}
+
+
 }
 
 footer div li a {
-	
+
 	margin: 0;
-	padding: 0; 
+	padding: 0;
 	color: #7d69ac;
 	margin: 0.5em;
 	text-decoration: none;
 	font-size: small;
-	
+
 }
 
 footer div li {
@@ -305,8 +291,8 @@ footer div li {
 
 footer div img {
 	display: block;
-    margin-right: auto;
-    margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
 	max-width: 10em;
 
 
